@@ -19,7 +19,8 @@ const discovery = new DiscoveryV2({
 //const createQuery = (categoryLabel, searchStr) => {
 const createQuery = (searchStr) => {
   const texts = searchStr
-    .split(" ")
+    // 半角あるいは全角のスペースで検索ワードを分割
+    .split(/[ 　]/)
     .map((item) => `text:"${item}"`)
     .join(",");
   //return `enriched_text.categories.label::"${categoryLabel}",(${texts})`;
