@@ -42,7 +42,7 @@ const runQuery = async (categoryLabel, searchStr) => {
 
   const results = queryResponse.result.results;
 
-  console.log(JSON.stringify(results, null, 2));
+  // console.log(JSON.stringify(results, null, 2));
   if (queryResponse.result.results && queryResponse.result.results.length > 0) {
     const results = queryResponse.result.results;
     // 変数名あとで考える

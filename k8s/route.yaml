@@ -1,0 +1,12 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: team-scorpius-be
+spec:
+  tls:
+    termination: edge
+  to:
+    name: team-scorpius-be
+    kind: Service
+    weight: 100
+  wildcardPolicy: None

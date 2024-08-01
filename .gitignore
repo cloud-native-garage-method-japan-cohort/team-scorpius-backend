@@ -48,4 +48,4 @@ composer-logs
 *.log
 blockchain/testenv/config/mychannel.block
 
-config
+# config
