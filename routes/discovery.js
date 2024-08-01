@@ -63,7 +63,7 @@ const runQuery = async (categoryLabel, searchStr) => {
     // });
     // return filtered;
   } else {
-    return "該当する情報が見つかりませんでした。";
+    return [];
   }
 };
 
