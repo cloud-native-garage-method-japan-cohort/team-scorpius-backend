@@ -1,0 +1,10 @@
+{
+  "watson": {
+    "discovery": {
+      "version": "2020-08-30",
+      "apikey": "OghrNoyJYhyoagOAk8HmLY3fxLQhk8ldaJ7FGLguJQSl",
+      "serviceUrl": "https://api.jp-tok.discovery.watson.cloud.ibm.com",
+      "projectId": "08c2b61d-6126-436a-be3f-c11ad7133c0f"
+    }
+  }
+}
